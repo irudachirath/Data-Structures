@@ -82,6 +82,6 @@ int main(){
     s.display();
     auto stopTime = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stopTime - startTime);
-    cout << duration.count() << endl;
+    cout << "Execution time: " << duration.count() << " micro seconds" << endl;
     return 0;
 }
